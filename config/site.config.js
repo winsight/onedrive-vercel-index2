@@ -6,7 +6,7 @@ module.exports = {
   // This is what we use to identify who you are when you are initialising the website for the first time.
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
-  // your email being exposed in public.
+  // your email being exposed in public. h 
   userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || '1120180104@bit.edu.cn',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
